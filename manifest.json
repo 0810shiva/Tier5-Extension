@@ -1,0 +1,19 @@
+{
+    "manifest_version": 2,
+    "name": "Forecast_Tier5",
+    "description": "Weather Forecasting Extension by Sourish Das",
+    "version": "1.0",
+    "browser_action": {
+      "default_icon": "clear-day.png",
+      "default_popup": "popup.html"
+    },
+    "permissions": [
+      "geolocation",
+      "alarms",
+      "<all_urls>"
+    ],
+    "background": {
+      "scripts": ["background.js"],
+      "persistent": false
+    }
+  }
